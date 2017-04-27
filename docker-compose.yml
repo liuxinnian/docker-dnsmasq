@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  dnsmasq:
+    image: 'liuxinnian/docker-dnsmsq:latest-armhf'
+    restart: 'always'
+    cap_add:
+      - NET_ADMIN
+    volumes:
+      - './config:/etc/dnsmasq.d'
