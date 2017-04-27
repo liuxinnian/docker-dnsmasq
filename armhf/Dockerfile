@@ -1,4 +1,4 @@
-FROM easypi/alpine-arm:build
+FROM easypi/alpine-arm
 
 MAINTAINER Xinnian Liu <liuxinnian@palmax.com>
 
